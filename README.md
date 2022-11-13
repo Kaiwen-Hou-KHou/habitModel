@@ -1,8 +1,8 @@
 # Campbell-Cochrane Habit Model
 
-This repository contains an implementation of the Campbell-Cochrane habit model for asset pricing, which assumes price-consumption ratio $\frac{P}{C}$ is a function $v$ of consumption surplus $S$. A dense neural network is trained to obtain the coordinates (i.e., optimal weights) of the projection of $v$ onto Chebyshev's polynomial space.
+This repository contains an implementation of the Campbell-Cochrane habit model for asset pricing, which assumes price-consumption ratio $\frac{P}{C}$ is a function $v$ of consumption surplus $S$. A dense neural network is trained via PyTorch to obtain the coordinates (i.e., optimal weights) of the projection of $v$ onto Chebyshev's polynomial space.
 
-- `habit_model.py` is an implementation of the habit model class. 
+- `habit_model.py` is an implementation of the habit model class. Default parameters are those in Table 1 of Campbell & Cochrane (1999).
 
 - `early_stop.py` implements early stopping to prevent overfitting, which is the same as that used in https://github.com/Kaiwen-Hou-KHou/spectralRegularization. 
 
