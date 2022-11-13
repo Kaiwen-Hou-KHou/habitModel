@@ -4,7 +4,11 @@ This repository contains an implementation of the Campbell-Cochrane habit model 
 
 - `habit_model.py` is an implementation of the habit model class. 
 
+- `early_stop.py` implements early stopping to prevent overfitting, which is the same as that used in https://github.com/Kaiwen-Hou-KHou/spectralRegularization. 
+
 - `demo.ipynb` shows the reproducible training process and results (loss curves, weights matrix, and $\frac{P}{C}$ against $S$), and a bit of interpretations as well.
+
+
 
 
 # References
